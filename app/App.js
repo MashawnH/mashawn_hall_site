@@ -6,7 +6,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <nav className = "App-nav">
+          <a className = "App-home"
+          href="#"
+          rel="noopener noreferrer">
+            Home
+          </a>
+
+          <a className = "App-projects"
+          href="#"
+          rel="noopener noreferrer">
+            Projects
+          </a>
+        </nav>
+
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,7 +31,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
